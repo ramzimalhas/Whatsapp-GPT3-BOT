@@ -1,0 +1,188 @@
+repo_name: ramzimalhas/Whatsapp-GPT3-BOT
+report_id: ea01bee646069946257022662680b5c1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T07:00:39+00:00'
+requested_by: badboysm890
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT
+  detection_source: Repo Metadata
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: fresh
+  description: Build and
+  package_url: https://pkg.go.dev/github.com/pilu/fresh
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: howeyc/fsnotify
+  description: File system notification for Go
+  package_url: https://pkg.go.dev/github.com/howeyc/fsnotify
+  version: 0.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: pilu/config
+  description: Config file parser for Go
+  package_url: https://pkg.go.dev/github.com/pilu/config
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ramzimalhas/Whatsapp-GPT3-BOT/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: badboysm890
+  last_updated_on: 2022-12-11 11:20:17.000000000 Z
